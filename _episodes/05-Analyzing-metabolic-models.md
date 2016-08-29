@@ -1,17 +1,15 @@
 ---
-title: "Genome-scale metabolic models"
+title: "Analyzing metabolic models"
 teaching: 15 min
-exercises: 15 min
+exercises: 30 min
 questions:
-- How can I get started with metabolic models?
+- How can I determine the maximum specific growth rate of my model?
+- What is the optimal oxygen uptake rate at maximum growth?
 objectives:
-- Understand the basic data structures of models.
-- Learn how to query models.
-- Set a biological objective and simulate a model.
-- Manipulate  bounds for defining media conditions and knocking out reactions
-- Importing models from different file formats
+- Learn how to determine flux capacities using flux variability analysis.
+- Learn how to generate phenotypic phase planes for different fluxes.
 keypoints:
-- model.reactions.RxnID.lower_bound = 0
+- ...
 ---
 
 [Jupyter notebook](http://nbviewer.jupyter.org/github/biosustain/cell-factory-design-course/blob/master/01-Getting-started.ipynb)

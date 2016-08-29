@@ -1,17 +1,16 @@
 ---
-title: "Genome-scale metabolic models"
+title: "Genome-scale metabolic model reconstruction"
 teaching: 15 min
-exercises: 15 min
+exercises: 30 min
 questions:
-- How can I get started with metabolic models?
+- How can I draw a metabolic pathway map?
+- How do I visualize omics data in the context of pathways?
+- Medium-dependent essential genes?
 objectives:
-- Understand the basic data structures of models.
-- Learn how to query models.
-- Set a biological objective and simulate a model.
-- Manipulate  bounds for defining media conditions and knocking out reactions
-- Importing models from different file formats
+- Learn how to draw metabolic pathway in Escher.
+- Learn how to visualize reaction and metabolite centric data.
 keypoints:
-- model.reactions.RxnID.lower_bound = 0
+- ...
 ---
 
 [Jupyter notebook](http://nbviewer.jupyter.org/github/biosustain/cell-factory-design-course/blob/master/01-Getting-started.ipynb)

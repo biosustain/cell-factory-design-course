@@ -1,17 +1,15 @@
 ---
-title: "Genome-scale metabolic models"
-teaching: 15 min
-exercises: 15 min
+title: "Predict gene expression modulation strategies"
+teaching: 30 min
+exercises: 30 min
 questions:
-- How can I get started with metabolic models?
+- How can I interpret transcriptomic/proteomic data in the context of a metabolic model?
+- How do I visualize omics data in the context of pathways?
 objectives:
-- Understand the basic data structures of models.
-- Learn how to query models.
-- Set a biological objective and simulate a model.
-- Manipulate  bounds for defining media conditions and knocking out reactions
-- Importing models from different file formats
+- Learn how to visualize omics data using Escher.
+- Learn how to run GIMME, iMat and other related methods for integrating expression data into models.
 keypoints:
-- model.reactions.RxnID.lower_bound = 0
+- ...
 ---
 
 [Jupyter notebook](http://nbviewer.jupyter.org/github/biosustain/cell-factory-design-course/blob/master/01-Getting-started.ipynb)

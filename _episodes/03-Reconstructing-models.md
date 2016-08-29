@@ -1,17 +1,13 @@
 ---
-title: "Genome-scale metabolic models"
+title: "Reconstructing models"
 teaching: 15 min
-exercises: 15 min
+exercises: 20 min
 questions:
 - How can I get started with metabolic models?
 objectives:
-- Understand the basic data structures of models.
-- Learn how to query models.
-- Set a biological objective and simulate a model.
-- Manipulate  bounds for defining media conditions and knocking out reactions
-- Importing models from different file formats
+- Understand the basic workflow of reconstructing metabolic models from genome annotation and literature.
 keypoints:
-- model.reactions.RxnID.lower_bound = 0
+- ...
 ---
 
 [Jupyter notebook](http://nbviewer.jupyter.org/github/biosustain/cell-factory-design-course/blob/master/01-Getting-started.ipynb)
