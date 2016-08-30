@@ -15,6 +15,12 @@ The courses will take place from 5–8 of September starting with the software c
 For further information about the Software Carpentry and cell factory design courses, please contact Software Carpentry instructor Kai Blin (kblin@biosustain.dtu.dk) and Niko Sonnenschein (niso@biosustain.dtu.dk) respectively.
 http://software-carpentry.org/
 
+## Etherpad
+
+[https://public.etherpad-mozilla.org/p/cell-factory-design-course-2016](https://public.etherpad-mozilla.org/p/cell-factory-design-course-2016)
+
+## Timing
+
 <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
