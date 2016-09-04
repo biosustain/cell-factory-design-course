@@ -26,6 +26,7 @@
 * Phenotyptic phase plane
 
 ## Omics data analysis
+* Fluxomics
 * Metabolomics
 
 ## Strain design algorithms
@@ -36,3 +37,7 @@
 * Differential FVA
 * Swapping co-factors in a reaction
 * Using OptSwap to find optimal co-factors to swap
+
+## Feedback
+
+Muconic acid, adipic acid
