@@ -1,6 +1,6 @@
 ---
 title: "Analyzing metabolic models"
-teaching: 15 min
+teaching: 30 min
 exercises: 30 min
 questions:
 - How can I determine the maximum specific growth rate of my model?

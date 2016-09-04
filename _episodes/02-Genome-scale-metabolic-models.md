@@ -1,9 +1,10 @@
 ---
 title: "Genome-scale metabolic models"
-teaching: 15 min
-exercises: 15 min
+teaching: 30 min
+exercises: 30 min
 questions:
-- How can I get started with metabolic models?
+- How do I explore the content (metabolites, reactions, genes, ...) in a model?
+- How can I search by name and other attributes?
 objectives:
 - Understand the basic data structures of models.
 - Learn how to query models.

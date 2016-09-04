@@ -1,5 +1,5 @@
 ---
-title: "Predict gene expression modulation strategies"
+title: "Gene expression modulation"
 teaching: 30 min
 exercises: 30 min
 questions:

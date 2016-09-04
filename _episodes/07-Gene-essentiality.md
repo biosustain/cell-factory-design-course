@@ -1,5 +1,5 @@
 ---
-title: "Genome-scale metabolic model reconstruction"
+title: "Gene essentiality"
 teaching: 15 min
 exercises: 30 min
 questions:

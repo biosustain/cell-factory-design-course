@@ -1,5 +1,5 @@
 ---
-title: "Reconstructing models"
+title: "Manipulating models"
 teaching: 15 min
 exercises: 20 min
 questions:
