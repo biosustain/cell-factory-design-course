@@ -31,7 +31,6 @@ Head over to [escher.github.io/](https://escher.github.io/). Learn the basic fea
 
 ## Using Escher maps inside Jupyter notebooks
 
-Furthermore, it is possible to embed Escher pathway visualizations inside Jupyter notebooks.
-
+Furthermore, it is possible to embed Escher pathway visualizations inside Jupyter notebooks. This is very practical for visualizing simulation results.
 
 {% include nbviewer_iframe.html %}

@@ -12,7 +12,9 @@ objectives:
 - Manipulate bounds for defining media conditions and knocking out reactions
 - Importing models from different file formats
 keypoints:
-- model.reactions.RxnID.lower_bound = 0
+- "`model.metabolites` contains all metabolites in model."
+- "`model.reactions` contains all reactions in model."
+- "`model.genes` contains all genes in model."
 ---
 
 {% include nbviewer_iframe.html %}

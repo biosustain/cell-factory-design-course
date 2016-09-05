@@ -11,9 +11,9 @@ follow the installation instructions for Python.
 
 ## Installing cameo
 
-Please open a terminal and create a conda environment for the course.
+Please open a terminal and create a conda environment for the course using the following command.
 
-    conda create -y --name cell-factory-course python=3.4 scipy pandas numexpr bokeh jupyter sympy lxml
+    conda create -y --name cell-factory-course python=3.4 scipy pandas numexpr bokeh jupyter sympy lxml matplotlib
 
 If you're on Linux or OS X run
 
@@ -23,7 +23,7 @@ to activate the environment. If you're on Windows run
 
     activate cell-factory-course
 
-Then use `pip` to install [cameo](http://cameo.bio).
+instead. Then use `pip` to install [cameo](http://cameo.bio).
 
     pip install cameo[all]
 
