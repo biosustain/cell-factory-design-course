@@ -8,7 +8,7 @@ questions:
 objectives:
 - Predict pathways for non-native target compounds.
 keypoints:
-- PathwayPredictor
+- "`cameo.strain_design.PathwayPredictor` computes shortest heterologous pathways for a desired product and host organism."
 ---
 
 {% include nbviewer_iframe.html %}

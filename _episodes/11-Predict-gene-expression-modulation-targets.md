@@ -9,7 +9,7 @@ objectives:
 - Learn how to visualize omics data using Escher.
 - Learn how to run GIMME, iMat and other related methods for integrating expression data into models.
 keypoints:
-- ...
+- "`cameo.strain_design.DifferentialFVA` uses flux variability analysis to compare flux ranges of reactions in production state vs. wild type state to determine which fluxes need to go up or down."
 ---
 
 {% include nbviewer_iframe.html %}

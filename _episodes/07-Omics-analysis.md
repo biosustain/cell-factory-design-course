@@ -10,7 +10,7 @@ objectives:
 - Learn how to draw omic data using Escher.
 - Learn how to use experimentally measured uptake and secretion rates to constrain models.
 keypoints:
-- ...
+- "`gimme` is a method for analyzing expression data in the context of models."
 ---
 
 {% include nbviewer_iframe.html %}

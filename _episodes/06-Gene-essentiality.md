@@ -10,7 +10,7 @@ objectives:
 - Learn how to draw metabolic pathway in Escher.
 - Learn how to visualize reaction and metabolite centric data.
 keypoints:
-- ...
+- "`model.genes.gene.knock_out` deletes the gene from the model removing also all reactions affected by the knockout."
 ---
 
 {% include nbviewer_iframe.html %}

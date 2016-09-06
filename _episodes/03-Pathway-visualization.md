@@ -9,7 +9,9 @@ objectives:
 - Learn how to draw a metabolic pathway in Escher.
 - Learn how to visualize gene, reaction or metabolite centric data.
 keypoints:
-- ...
+- <https://escher.github.io/> provides a standalone web application for pathway visualizations.
+- "`escher.Builder` embeds pathway visualizations inside jupyter notebooks."
+- "`escher.Builder` has keyword arguments for providing reaction, metabolite, and gene related data."
 ---
 
 ## Using the standalone web application

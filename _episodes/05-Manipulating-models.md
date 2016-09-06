@@ -10,6 +10,8 @@ objectives:
 keypoints:
 - "`cameo.util.TimeMachine` provides a convenient way to undo changes to models in order to avoid copies."
 - "`reaction.change_bounds` allows one to change the lower and upper bound of reaction simultaneously."
+- "`Reaction` and `Metabolite` can be used to define reactions."
+- "`model.add_reaction(reaction)` adds reaction to model."
 ---
 
 {% include nbviewer_iframe.html %}
