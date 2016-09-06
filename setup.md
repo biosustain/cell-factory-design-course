@@ -15,17 +15,21 @@ Please open a shell (terminal) and create a conda environment for the course usi
 
     conda create -y --name cell-factory-course python=3.4 scipy pandas numexpr bokeh jupyter sympy lxml matplotlib
 
-If you're on Linux or OS X run
+If you're on Linux or OS X or are using the git-bash shell on Windows run
 
     source activate cell-factory-course
 
-to activate the environment. If you're on Windows run
+to activate the environment. If you're on Windows using the default terminal (cmd) run the following command instead.
 
     activate cell-factory-course
 
-instead. Then use `pip` to install [cameo](http://cameo.bio) and [driven](http://driven.bio).
+If you successfully activated you're environment, your command prompt will look similar to this.
 
-    pip install cameo[all] driven
+    (cell-factory-course)$
+
+Then use `pip` to install [cameo](http://cameo.bio) and [driven](http://driven.bio).
+
+    pip install cameo driven
 
 Run the following command to check that the installation was successful.
 
