@@ -10,11 +10,9 @@ This two-day hands-on workshop covers the basics of constraint-based modeling of
 
 **Where**: Room 207, Building 223, 2800 Kgs. Lyngby. Get directions with OpenStreetMap or Google Maps.
 
-**Requirements**: Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (the setup instruction can be found [here](setup.html)). They are also required to abide by Software Carpentry's Code of Conduct.
+**Requirements**: Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (the setup instruction can be found [here](setup)). Furthermore, they can download all course notebooks [here](https://github.com/biosustain/cell-factory-design-course/archive/master.zip). They are also required to abide by Software Carpentry's Code of Conduct.
 
 Contact: Please mail niso@biosustain.dtu.dk for more information.
-
-Download all course notebooks [here](https://github.com/biosustain/cell-factory-design-course/archive/master.zip).
 
 ## Etherpad
 

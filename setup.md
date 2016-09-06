@@ -23,9 +23,9 @@ to activate the environment. If you're on Windows run
 
     activate cell-factory-course
 
-instead. Then use `pip` to install [cameo](http://cameo.bio).
+instead. Then use `pip` to install [cameo](http://cameo.bio) and [driven](http://driven.bio).
 
-    pip install cameo[all]
+    pip install cameo[all] driven
 
 Run the following command to check that the installation was successful.
 
