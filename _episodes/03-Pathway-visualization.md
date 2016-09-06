@@ -1,7 +1,7 @@
 ---
-title: "Pathway visualization"
-teaching: 15 min
-exercises: 30 min
+title: "3. Pathway visualization"
+teaching: 15
+exercises: 30
 questions:
 - How can I draw a metabolic pathway map?
 - How do I visualize omics data in the context of pathways?
@@ -23,12 +23,12 @@ Head over to [escher.github.io/](https://escher.github.io/). Learn the basic fea
 
 > ## Adding a missing pathway
 >
-> In the _E. coli_ central carbon metabolism map, add the biosynthetic pathway for L-serine.
+> In the _E. coli_ central carbon metabolism map, add the biosynthetic pathway for L-serine. Tip: Look up the biosynthetic steps on [KEGG](http://www.genome.jp/kegg/) or [EcoCyc](http://ecocyc.org/) if you can't recall them.
 {: .challenge}
 
 > ## Highlight gene expression changes
 >
-> Using the _E. coli_ central carbon metabolism map, visualize the gene expression data covered in the R lesson of the software carpentry course.
+> Using the _E. coli_ central carbon metabolism map, visualize the gene expression data covered in the R lesson of the software carpentry course (data/expression_data_e_coli.csv). Play with the settings until you're satisfied with the representation
 {: .challenge}
 
 ## Using Escher maps inside Jupyter notebooks

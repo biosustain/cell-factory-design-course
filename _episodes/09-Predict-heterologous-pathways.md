@@ -1,10 +1,9 @@
 ---
-title: "Heterologous pathways"
-teaching: 30 min
-exercises: 0 min
+title: "9. Heterologous pathways"
+teaching: 30
+exercises: 30
 questions:
 - How can I find heterologous pathways ?
-- How do I visualize omics data in the context of pathways?
 objectives:
 - Predict pathways for non-native target compounds.
 keypoints:

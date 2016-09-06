@@ -1,7 +1,7 @@
 ---
-title: "Gene expression modulation"
-teaching: 30 min
-exercises: 30 min
+title: "11. Gene expression modulation"
+teaching: 30
+exercises: 30
 questions:
 - How can I predict over-expression and down-regulation targets?
 objectives:

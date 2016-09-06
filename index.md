@@ -23,12 +23,18 @@ Contact: Please mail niso@biosustain.dtu.dk for more information.
 <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tbody><tr> <td>09:00</td>  <td>Exercises</td></tr>
+      <tbody>
+      <tr> <td>09:00</td>  <td>Resolve installation issues</td></tr>
+      <tr> <td>09:30</td>  <td>Episode 1</td></tr>
+      <tr> <td>10:00</td>  <td>Episode 2</td></tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>10:45</td>  <td>Episode 3</td></tr>
+      <tr> <td>11:30</td>  <td>Episode 4 (part 1)</td></tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Exercises</td> </tr>
+      <tr> <td>13:00</td>  <td>Episode 4 (part 2) </td> </tr>
+      <tr> <td>13:30</td>  <td>Episode 5 </td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>14:45</td>  <td>Exercises</td> </tr>
+      <tr> <td>14:45</td>  <td>Episode 6</td> </tr>
       <tr> <td>15:45</td>  <td>Wrap-up</td> </tr>
       <tr> <td>16:00</td>  <td>End</td> </tr>
     </tbody></table>
@@ -36,13 +42,18 @@ Contact: Please mail niso@biosustain.dtu.dk for more information.
   <div class="col-md-6">
       <h3>Day 2</h3>
       <table class="table table-striped">
-        <tbody><tr> <td>09:00</td>  <td>Exercises</td> </tr>
-        <tr> <td>10:30</td> <td>Coffee</td> </tr>
+        <tbody>
+        <tr> <td>09:00</td>  <td>Episode 7</td> </tr>
+        <tr> <td>09:30</td>  <td>Episode 8</td> </tr>
+        <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+        <tr> <td>10:45</td>  <td>Episode 9</td> </tr>
         <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-        <tr> <td>13:00</td>  <td>Exercises</td> </tr>
+        <tr> <td>13:00</td>  <td>Episode 10</td> </tr>
+        <tr> <td>14:00</td>  <td>Episode 11 (part 1)</td> </tr>
         <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-        <tr> <td>14:45</td>  <td>Exercises</td> </tr>
-        <tr> <td>15:45</td>  <td>Wrap-up</td> </tr>
+        <tr> <td>14:45</td>  <td>Episode 11 (part 2)</td> </tr>
+        <tr> <td>15:15</td>  <td>Wrap-up</td> </tr>
+        <tr> <td>15:30</td>  <td>PhD students discussion of projects</td> </tr>
         <tr> <td>16:00</td>  <td>End</td> </tr>
       </tbody></table>
     </div>

@@ -1,7 +1,7 @@
 ---
-title: "Manipulating models"
-teaching: 15 min
-exercises: 30 min
+title: "5. Manipulating models"
+teaching: 30
+exercises: 30
 questions:
 - How can I add missing reactions to a model?
 - How can I delete a gene from a model?

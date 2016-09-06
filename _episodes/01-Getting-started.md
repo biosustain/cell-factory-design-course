@@ -1,7 +1,7 @@
 ---
-title: "Getting started"
-teaching: 15 min
-exercises: 10 min
+title: "1. Getting started"
+teaching: 15
+exercises: 15
 questions:
 - How can I get started with metabolic models?
 objectives:

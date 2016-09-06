@@ -1,7 +1,7 @@
 ---
-title: "Gene deletion strategies"
-teaching: 30 min
-exercises: 30 min
+title: "10. Gene deletion strategies"
+teaching: 30
+exercises: 30
 questions:
 - How does one reroute flux towards production using gene deletions?
 objectives:

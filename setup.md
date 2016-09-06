@@ -37,6 +37,10 @@ Run the following command to check that the installation was successful.
 
 The output should be `0.8739215069684304`.
 
+## Troubleshooting
+
+If you're on a Mac, the test command might fail because a solver was not properly installed. Please install homebrew
+
 ## Download course materials
 
  You can download all course notebooks at once [here](https://github.com/biosustain/cell-factory-design-course).
