@@ -25,7 +25,7 @@ to activate the environment. If you're on Windows run
 
 instead. Then use `pip` to install [cameo](http://cameo.bio) and [driven](http://driven.bio).
 
-    pip install cameo[all] driven
+    pip install cameo driven
 
 Run the following command to check that the installation was successful.
 
