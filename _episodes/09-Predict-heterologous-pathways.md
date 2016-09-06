@@ -1,7 +1,7 @@
 ---
 title: "Heterologous pathways"
 teaching: 30 min
-exercises: 30 min
+exercises: 0 min
 questions:
 - How can I find heterologous pathways ?
 - How do I visualize omics data in the context of pathways?

@@ -1,7 +1,7 @@
 ---
 title: "Omics data analysis"
 teaching: 15 min
-exercises: 15 min
+exercises: 0 min
 questions:
 - How to further constrain models using fluxomics.
 - How can I interpret transcriptomic/proteomic data in the context of a metabolic model?
