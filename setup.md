@@ -31,15 +31,30 @@ Then use `pip` to install [cameo](http://cameo.bio) and [driven](http://driven.b
 
     pip install cameo driven
 
+Furthermore, if you're on Windows, please also run.
+
+    pip install swiglpk
+
 Run the following command to check that the installation was successful.
 
     python -c "from cameo import models;print(models.bigg.e_coli_core.solve().objective_value)"
 
 The output should be `0.8739215069684304`.
 
-## Troubleshooting
+You also have received an email with installation instructions for one commercial software package. Install it by copy and pasting the command into your shell.
 
-If you're on a Mac, the test command might fail because a solver was not properly installed. Please install homebrew
+    pip install <the-dropbox-link>
+
+If this fails, please click on the dropbox link, download the wheel file, and then run the following in your shell (you need to be in the directory where you downloaded the file from dropbox).
+
+OS X:
+
+    pip install cplex-12.6.3.0-py3-none-any.whl
+
+
+Windows:
+
+    pip install cplex-12.6.1.0-py3-none-any.whl  #
 
 ## Download course materials
 
