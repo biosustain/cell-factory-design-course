@@ -58,4 +58,4 @@ Windows:
 
 ## Download course materials
 
- You can download all course notebooks at once [here](https://github.com/biosustain/cell-factory-design-course).
+ You can download all course notebooks at once [here](https://github.com/biosustain/cell-factory-design-course/archive/master.zip).

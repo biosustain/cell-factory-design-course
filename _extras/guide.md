@@ -70,11 +70,12 @@ permalink: /guide/
 
     result = {}
     with TimeMachine() as tm:
-        model.reactions.EX_glc__D_e.change_bounds(0, 0, time_machine=tm)
-        for source in carbon_exchanges:
+    model.reactions.EX_glc__D_e.change_bounds(0, 0, time_machine=tm)
+    for source in carbon_exchanges:
+        with TimeMachine() as tm3:
             print('Determining essentiality for: ' + source)
             result[source] = {}
-            model.reactions.get_by_id(source).change_bounds(-20, 0, time_machine=tm)
+            model.reactions.get_by_id(source).change_bounds(-20, 0, time_machine=tm3)
             for gene in model.genes:
                 with TimeMachine() as tm2:
                     gene.knock_out(time_machine=tm2)
@@ -85,6 +86,21 @@ permalink: /guide/
                     else:
                         result[source][gene] = solution.objective_value
 
+
+    from pandas import DataFrame
+
+    df = DataFrame.from_dict(result)
+
+    import matplotlib.pyplot as plt
+
+    binary_df = df.applymap(lambda x: 0 if x < 0.05 else 1)
+
+    ax = plt.matshow(binary_df, cmap='gray').axes
+    ax.set_aspect(.05)
+    ax.grid(color='gray')
+    ax.set_xlabel('Carbon sources')
+    ax.set_ylabel('Genes')
+    ax.figure.set_figwidth(8)
 
 ### 08-Theoretical-maximum-yields
 
@@ -97,3 +113,20 @@ C-mol yield
 Mass yield
 
     (model.reactions.EX_ac_e.flux * model.metabolites.ac_c.formula_weight) / (-1. * model.reactions.EX_glc__D_e.flux * model.metabolites.glc__D_e.formula_weight)
+
+
+#### Exercise 2
+
+Biomass mass yield
+
+    gDW_biomass_per_g_glucose = gDW_biomass_per_mmol_glucose * (1000 / model.metabolites.glc__D_e.formula_weight)
+    gDW_biomass_per_g_glucose
+
+#### Excercise 3
+
+    product_fluxes = []
+    model.objective = model.reactions.EX_ac_e
+    for growth in growth_rates:
+        model.reactions.BIOMASS_Ec_iJO1366_core_53p95M.change_bounds(growth, growth)
+        product_fluxes.append(model.solve().objective_value)
+    product_fluxes = array(product_fluxes)
