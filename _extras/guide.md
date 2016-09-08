@@ -130,3 +130,52 @@ Biomass mass yield
         model.reactions.BIOMASS_Ec_iJO1366_core_53p95M.change_bounds(growth, growth)
         product_fluxes.append(model.solve().objective_value)
     product_fluxes = array(product_fluxes)
+
+### Episode 10
+
+#### Solution 1
+
+    mutant1.reactions.EX_o2_e.lower_bound = -20
+    ppp = phenotypic_phase_plane(mutant1,
+                                 variables=[mutant1.reactions.BIOMASS_Ecoli_core_w_GAM],
+                                 objective=mutant1.reactions.EX_succ_e)
+
+    ppp.plot()
+
+    mutant2.reactions.EX_o2_e.lower_bound = -20
+    ppp = phenotypic_phase_plane(mutant2,
+                                 variables=[mutant2.reactions.BIOMASS_Ecoli_core_w_GAM],
+                                 objective=mutant2.reactions.EX_succ_e)
+
+    ppp.plot()
+
+    mutant3.reactions.EX_o2_e.lower_bound = -20
+    ppp = phenotypic_phase_plane(mutant3,
+                                 variables=[mutant3.reactions.BIOMASS_Ecoli_core_w_GAM],
+                                 objective=mutant3.reactions.EX_succ_e)
+
+    ppp.plot()
+
+
+#### Solution 2
+
+    mutant3.reactions.ACALD.gene_name_reaction_rule
+
+    mutant3.reactions.LDH_D.gene_name_reaction_rule
+
+    for gene in mutant3.reactions.ACALD.genes:
+        print(gene.name, gene.reactions)
+
+    for gene in mutant3.reactions.LDH_D.genes:
+        print(gene.name, gene.reactions)
+
+    mutant4 = model.copy()
+    mutant4.reactions.ACALD.knock_out()
+    mutant4.reactions.LDH_D.knock_out()
+    mutant4.reactions.ALCD2x.knock_out()
+
+    ppp = phenotypic_phase_plane(mutant4,
+                                 variables=[mutant4.reactions.BIOMASS_Ecoli_core_w_GAM],
+                                 objective=mutant4.reactions.EX_succ_e)
+
+    ppp.plot()
