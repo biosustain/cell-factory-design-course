@@ -11,4 +11,6 @@ keypoints:
 - FIXME
 ---
 
-FIXME
+Please download the following example [data](data/workshop-dddecaf-example-data.zip)
+
+...
