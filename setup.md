@@ -27,17 +27,13 @@ If you successfully activated you're environment, your command prompt will look 
 
     (cell-factory-course)$
 
-Then use `pip` to install [cameo](http://cameo.bio) and [driven](http://driven.bio).
+Then use `pip` to install [cameo](http://cameo.bio).
 
-    pip install cameo driven
-
-Furthermore, if you're on Windows, please also run.
-
-    pip install swiglpk
+    pip install cameo
 
 Run the following command to check that the installation was successful.
 
-    python -c "from cameo import models;print(models.bigg.e_coli_core.solve().objective_value)"
+    python -c "from cameo import models;print(models.bigg.e_coli_core.optimize().objective_value)"
 
 The output should be `0.8739215069684304`.
 
