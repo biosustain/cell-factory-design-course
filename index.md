@@ -21,7 +21,7 @@ Furthermore, all course notebooks can be downloaded at once [here](https://githu
 
 ## Etherpad
 
-<https://public.etherpad-mozilla.org/p/cell-factory-design-course-2016>
+<https://public.etherpad-mozilla.org/p/cell-factory-design-course-2017>
 
 ## Timing
 
