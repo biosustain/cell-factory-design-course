@@ -49,9 +49,10 @@ Furthermore, all course notebooks can be downloaded at once [here](https://githu
       <table class="table table-striped">
         <tbody>
         <tr> <td>09:00</td>  <td>Episode 7</td> </tr>
-        <tr> <td>09:30</td>  <td>Episode 8</td> </tr>
+        <tr> <td>10:00</td>  <td>Episode 8 (part 1)</td> </tr>
         <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-        <tr> <td>10:45</td>  <td>Episode 9</td> </tr>
+        <tr> <td>10:45</td>  <td>Episode 8 (part 2)</td> </tr>
+        <tr> <td>11:00</td>  <td>Episode 9</td> </tr>
         <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
         <tr> <td>13:00</td>  <td>Episode 10</td> </tr>
         <tr> <td>14:00</td>  <td>Episode 11 (part 1)</td> </tr>

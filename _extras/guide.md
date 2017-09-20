@@ -102,7 +102,7 @@ permalink: /guide/
     ax.set_ylabel('Genes')
     ax.figure.set_figwidth(8)
 
-### 08-Theoretical-maximum-yields
+### 07-Theoretical-maximum-yields
 
 #### Exercise 1
 
@@ -131,7 +131,7 @@ Biomass mass yield
         product_fluxes.append(model.solve().objective_value)
     product_fluxes = array(product_fluxes)
 
-### Episode 10
+### Episode 09
 
 #### Solution 1
 
