@@ -1,5 +1,5 @@
 ---
-title: "10. Gene deletion strategies"
+title: "9. Gene deletion strategies"
 teaching: 30
 exercises: 30
 questions:

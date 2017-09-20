@@ -1,5 +1,5 @@
 ---
-title: "9. Heterologous pathways"
+title: "8. Heterologous pathways"
 teaching: 30
 exercises: 30
 questions:

@@ -1,5 +1,5 @@
 ---
-title: "11. Gene expression modulation"
+title: "10. Gene expression modulation"
 teaching: 30
 exercises: 30
 questions:

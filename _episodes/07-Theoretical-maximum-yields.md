@@ -1,5 +1,5 @@
 ---
-title: "8. Calculating yields"
+title: "7. Calculating yields"
 teaching: 30
 exercises: 30
 questions:
