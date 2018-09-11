@@ -13,7 +13,7 @@ follow the installation instructions for Python.
 
 Please open a shell (terminal) and create a conda environment for the course using the following command.
 
-    conda create -y --name cell-factory-course python=3.4 scipy pandas numexpr bokeh jupyter sympy lxml matplotlib
+    conda create -y --name cell-factory-course python=3.6
 
 If you're on Linux or OS X or are using the git-bash shell on Windows run
 
@@ -27,9 +27,9 @@ If you successfully activated you're environment, your command prompt will look 
 
     (cell-factory-course)$
 
-Then use `pip` to install [cameo](http://cameo.bio).
+Then use `pip` to install [cameo](http://cameo.bio) and a few other handy things.
 
-    pip install cameo
+    pip install cameo memote pandas==0.21.0 escher==1.6.0 plotly==2.0.12 matplotlib==2.1.0 numpy>=1.13.3 scipy>=1.0.0
 
 Run the following command to check that the installation was successful.
 
@@ -37,20 +37,17 @@ Run the following command to check that the installation was successful.
 
 The output should be `0.8739215069684304`.
 
-You also have received an email with installation instructions for one commercial software package. Install it by copy and pasting the command into your shell.
+You also have received an email with with a download link for CPLEX (only intended for academic use). Download the respective installer for your platform and install CPLEX. After you succeeded, run the following in your terminal (make sure you activated the `cell-factory-course` environment first) to install CPLEX for Python.
 
-    pip install <the-dropbox-link>
+    pip install <path-to-your-cplex-installation>/CPLEX_Studio128/cplex/python/3.6/<platform>/
 
-If this fails, please click on the dropbox link, download the wheel file, and then run the following in your shell (you need to be in the directory where you downloaded the file from dropbox).
+ For OS X, this should look like
 
-OS X:
+ 	pip install /Applications/CPLEX_Studio128/cplex/python/3.6/x86-64_osx/
 
-    pip install cplex-12.6.3.0-py3-none-any.whl
+## Fallback solution
 
-
-Windows:
-
-    pip install cplex-12.6.1.0-py3-none-any.whl  #
+Please create a GitHub account if you don't already own one at <https://github.com/join?source=header-home>. That way we'll be able to provide you with access to a Jupyterhub notebook server that already contains all necessary software pre-installed as a fallback solution in case you run into troubles during the course.
 
 ## Download course materials
 
