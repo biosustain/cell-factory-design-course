@@ -37,14 +37,28 @@ Run the following command to check that the installation was successful (this ca
 
 The output should be approximately `0.8739`.
 
-You also have received an email with with a download link for CPLEX (only intended for academic use). Download the respective installer for your platform and install CPLEX. After you succeeded, run the following in your terminal (make sure you activated the `cell-factory-course` environment first) to install CPLEX for Python.
+You also have received an email with with a download link for CPLEX (only intended for academic use). Download the respective installer for your platform and install CPLEX. After you succeeded follow the respective instructions for your platform.
+
+### OS X and Linux
+
+On Linux or OS X, run the following in your terminal (make sure you activated the `cell-factory-course` environment first) to install CPLEX for Python.
 
     pip install <path-to-your-cplex-installation>/CPLEX_Studio128/cplex/python/3.6/<platform>/
 
  For OS X, this should look like
 
  	pip install /Applications/CPLEX_Studio128/cplex/python/3.6/x86-64_osx/
- 
+
+### Windows
+
+If you installed CPLEX on Windows, `cd` into the following directory first
+    
+    cd "C:\Program Files\IBM\ILOG\CPLEX_Studio128\python"
+    
+and then run the following two commands (make sure you activated the `cell-factory-course` environment first)
+
+    python setupy.py build
+    python setupy.py install
 
 ## Fallback solution
 
