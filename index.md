@@ -24,7 +24,7 @@ Furthermore, all course notebooks can be downloaded at once [here](https://githu
 
 ## Etherpad
 
-<https://pad.carpentries.org/cell-factory-design-2018>
+<https://pad.carpentries.org/2018-09-10-dtu>
 
 ## Timing
 
