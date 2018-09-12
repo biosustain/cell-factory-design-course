@@ -44,6 +44,7 @@ You also have received an email with with a download link for CPLEX (only intend
  For OS X, this should look like
 
  	pip install /Applications/CPLEX_Studio128/cplex/python/3.6/x86-64_osx/
+ 
 
 ## Fallback solution
 
