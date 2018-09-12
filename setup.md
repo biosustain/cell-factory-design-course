@@ -29,13 +29,13 @@ If you successfully activated you're environment, your command prompt will look 
 
 Then use `pip` to install [cameo](http://cameo.bio) and a few other handy things.
 
-    pip install cameo memote pandas==0.21.0 escher==1.6.0 plotly==2.0.12 matplotlib==2.1.0 numpy>=1.13.3 scipy>=1.0.0
+    pip install cameo pandas==0.21.0 escher==1.6.0 plotly==2.0.12 matplotlib==2.1.0 numpy>=1.13.3 scipy>=1.0.0
 
-Run the following command to check that the installation was successful.
+Run the following command to check that the installation was successful (this can take a few seconds).
 
     python -c "from cameo import models;print(models.bigg.e_coli_core.optimize().objective_value)"
 
-The output should be `0.8739215069684304`.
+The output should be approximately `0.8739`.
 
 You also have received an email with with a download link for CPLEX (only intended for academic use). Download the respective installer for your platform and install CPLEX. After you succeeded, run the following in your terminal (make sure you activated the `cell-factory-course` environment first) to install CPLEX for Python.
 
