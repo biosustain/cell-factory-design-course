@@ -57,7 +57,7 @@ If you installed CPLEX on Windows, `cd` into the following directory first
     
 and then run (make sure you activated the `cell-factory-course` environment first)
 
-    pip install.
+    pip install .
 
 ## Fallback solution
 
