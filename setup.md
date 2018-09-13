@@ -53,12 +53,11 @@ On Linux or OS X, run the following in your terminal (make sure you activated th
 
 If you installed CPLEX on Windows, `cd` into the following directory first
     
-    cd "C:\Program Files\IBM\ILOG\CPLEX_Studio128\python"
+    cd "C:\Program Files\IBM\ILOG\CPLEX_Studio128\cplex\python\3.6\<platform>"
     
-and then run the following two commands (make sure you activated the `cell-factory-course` environment first)
+and then run (make sure you activated the `cell-factory-course` environment first)
 
-    python setupy.py build
-    python setupy.py install
+    pip install.
 
 ## Fallback solution
 
