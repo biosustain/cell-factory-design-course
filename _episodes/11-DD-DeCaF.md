@@ -11,7 +11,7 @@ keypoints:
 - "Ideally, computer-aided design software would aid bench biologists in cell factory engineering. Existing software is still not on par with programming libraries such as cameo and cobrapy in terms of features and flexibility."
 ---
 
-Please familiarize yourself with the documentation ("Getting started") available at https://app.dd-decaf.eu/. 
+Please familiarize yourself with the documentation ("Getting started") available at <https://app.dd-decaf.eu/>. 
 
 You will also need to download the following example [data](../data/workshop-dddecaf-example-data.zip).
 
