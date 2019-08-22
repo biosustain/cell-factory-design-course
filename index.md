@@ -10,8 +10,7 @@ This two-day hands-on workshop covers the basics of constraint-based modeling of
 
 **Where**:
 
-* 1st day, Room S02, Building 101, DTU main building
-* 2nd day, Room 219, Building 220, DTU Biosustain
+* Room 008, Building 210, DTU
 
 **Requirements**: Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (the setup instruction can be found [here](setup)). They are also required to abide by Software Carpentry's Code of Conduct.
 
