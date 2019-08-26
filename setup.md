@@ -29,7 +29,7 @@ If you successfully activated you're environment, your command prompt will look 
 
 Then use `pip` to install [cameo](http://cameo.bio) and a few other handy things.
 
-    pip install cameo pandas==0.21.0 escher==1.6.0 plotly==2.0.12 matplotlib==2.1.0
+    pip install cameo pandas escher plotly matplotlib --upgrade
 
 Run the following command to check that the installation was successful (this can take a few seconds).
 
