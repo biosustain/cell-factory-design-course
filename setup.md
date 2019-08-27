@@ -23,19 +23,31 @@ to activate the environment. If you're on Windows using the default terminal (cm
 
     activate cell-factory-course
 
-If you successfully activated you're environment, your command prompt will look similar to this.
+Maybe
+
+    conda activate cell-factory-course
+
+works now in a platform independent fashion too (not tested).
+
+If you successfully activated you're environment, your command prompt will look similar to this (maybe not true anymore in 2019).
 
     (cell-factory-course)$
 
 Then use `pip` to install [cameo](http://cameo.bio) and a few other handy things.
 
-    pip install cameo pandas escher plotly matplotlib --upgrade
+    pip install cameo memote ipykernel pandas escher plotly matplotlib --upgrade
 
 Run the following command to check that the installation was successful (this can take a few seconds).
 
     python -c "from cameo import models;print(models.bigg.e_coli_core.optimize().objective_value)"
 
 The output should be approximately `0.8739`.
+
+Finally run
+
+    python -m ipykernel install --user --name cell_factory_course --display-name "cell-factory-course"
+
+to make this environment available in Jupyter notebook.
 
 You also have received an email with with a download link for CPLEX (only intended for academic use). Download the respective installer for your platform and install CPLEX. After you succeeded follow the respective instructions for your platform.
 
