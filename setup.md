@@ -35,7 +35,7 @@ If you successfully activated you're environment, your command prompt will look 
 
 Then use `pip` to install [cameo](http://cameo.bio) and a few other handy things.
 
-    pip install cameo memote ipykernel pandas escher plotly matplotlib --upgrade
+    pip install cameo memote ipykernel pandas escher==1.6.0 plotly matplotlib --upgrade
 
 Run the following command to check that the installation was successful (this can take a few seconds).
 
