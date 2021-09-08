@@ -18,4 +18,4 @@ jupyter:
 
 Launch the course in Binder!
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biosustain/cell-factory-design-course/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biosustain/cell-factory-design-course/master?urlpath=lab)
